@@ -15,6 +15,7 @@
       (document.getElementById('3d-graph'))
         .jsonUrl('miserables.json')
         .nodeAutoColorBy('group')
+        .onNodeClick(node => `${node.user}: ${node.description}`)
         .nodeThreeObject(node => {
           const sprite = new SpriteText(node.id);
           sprite.color = node.color;
