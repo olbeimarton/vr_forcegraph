@@ -1,0 +1,732 @@
+{"nodes":
+[
+  {
+    "id": "Inflammatory fibroblasts F",
+    "group": 1
+  },
+  {
+    "id": "Inflammatory fibroblasts A",
+    "group": 1
+  },
+  {
+    "id": "Immature Goblet cells",
+    "group": 1
+  },
+  {
+    "id": "Inflammatory fibroblasts E",
+    "group": 1
+  },
+  {
+    "id": "Immature Enterocytes B",
+    "group": 1
+  },
+  {
+    "id": "Inflammatory fibroblasts B",
+    "group": 1
+  },
+  {
+    "id": "Immature Enterocytes A",
+    "group": 1
+  },
+  {
+    "id": "Inflammatory fibroblasts C",
+    "group": 1
+  },
+  {
+    "id": "Glia cells",
+    "group": 1
+  },
+  {
+    "id": "RSPO3 Fibroblasts",
+    "group": 1
+  },
+  {
+    "id": "Enterocytes",
+    "group": 1
+  },
+  {
+    "id": "Pericytes",
+    "group": 1
+  },
+  {
+    "id": "Myofibroblasts",
+    "group": 1
+  },
+  {
+    "id": "Endothelial cell",
+    "group": 1
+  },
+  {
+    "id": "M cells",
+    "group": 1
+  },
+  {
+    "id": "Microvascular cells",
+    "group": 1
+  },
+  {
+    "id": "Inflammatory fibroblasts D",
+    "group": 1
+  },
+  {
+    "id": "Post-capillary Venules",
+    "group": 1
+  },
+  {
+    "id": "Endothelial cells",
+    "group": 1
+  },
+  {
+    "id": "Glial cells",
+    "group": 1
+  }
+]
+,"links":
+[
+  {
+    "source": "Inflammatory.Fibroblasts",
+    "target": "Pericytes",
+    "value": 1
+  },
+  {
+    "source": "Inflammatory.Fibroblasts",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Inflammatory.Fibroblasts",
+    "target": "Inflammatory.Fibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Immature.Goblet",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "Inflammatory.Fibroblasts",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "Inflammatory.Fibroblasts",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "Inflammatory.Fibroblasts",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..1",
+    "target": "Pericytes",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..1",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..1",
+    "target": "Inflammatory.Fibroblasts",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.2",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..1",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..1",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..1",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "Inflammatory.Fibroblasts",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..1",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.2",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.2",
+    "target": "Inflammatory.Fibroblasts",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.1",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.1",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.2",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.2",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "Immature.Enterocytes.2",
+    "target": "Pericytes",
+    "value": 1
+  },
+  {
+    "source": "Immature.Enterocytes.2",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Immature.Enterocytes.2",
+    "target": "Inflammatory.Fibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Immature.Enterocytes.1",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "Immature.Enterocytes.2",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "Immature.Enterocytes.2",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "Immature.Enterocytes.2",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.2",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.2",
+    "target": "Pericytes",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.1",
+    "target": "Inflammatory.Fibroblasts",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.hi",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.hi",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.hi",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.1",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "Immature.Enterocytes.2",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "Enterocytes",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.1",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.1",
+    "target": "Pericytes",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.1",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "RSPO3.",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "RSPO3.",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "RSPO3.",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "RSPO3.",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "Enterocytes",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "Enterocytes",
+    "target": "WNT2B..Fos.lo.2",
+    "value": 1
+  },
+  {
+    "source": "Enterocytes",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.hi",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.hi",
+    "target": "Pericytes",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.hi",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.hi",
+    "target": "Inflammatory.Fibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Pericytes",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "Myofibroblasts",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "Myofibroblasts",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "Immature.Enterocytes.1",
+    "target": "Pericytes",
+    "value": 1
+  },
+  {
+    "source": "Glia",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "Glia",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "Glia",
+    "target": "Inflammatory.Fibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Enterocytes",
+    "target": "M.cells",
+    "value": 1
+  },
+  {
+    "source": "Enterocytes",
+    "target": "Inflammatory.Fibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Endothelial",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "Endothelial",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "Enterocytes",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "Enterocytes",
+    "target": "RSPO3.",
+    "value": 1
+  },
+  {
+    "source": "Myofibroblasts",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "RSPO3.",
+    "target": "Pericytes",
+    "value": 1
+  },
+  {
+    "source": "RSPO3.",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "RSPO3.",
+    "target": "Inflammatory.Fibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Pericytes",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "Microvascular",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "Microvascular",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "Microvascular",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "Microvascular",
+    "target": "Inflammatory.Fibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Enterocytes",
+    "target": "Pericytes",
+    "value": 1
+  },
+  {
+    "source": "Enterocytes",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Endothelial",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "Endothelial",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "Endothelial",
+    "target": "Pericytes",
+    "value": 1
+  },
+  {
+    "source": "Endothelial",
+    "target": "Inflammatory.Fibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Myofibroblasts",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Myofibroblasts",
+    "target": "Inflammatory.Fibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Myofibroblasts",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "Myofibroblasts",
+    "target": "Pericytes",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..2",
+    "target": "Pericytes",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..2",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..2",
+    "target": "Inflammatory.Fibroblasts",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..2",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..2",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..2",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..2",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "Post.capillary.Venules",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..1",
+    "target": "RSPO3.",
+    "value": 1
+  },
+  {
+    "source": "Post.capillary.Venules",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "Glia",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "Glia",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "Myofibroblasts",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "Myofibroblasts",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "Myofibroblasts",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.hi",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.1",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..2",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..2",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..2",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..2",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "Myofibroblasts",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "Microvascular",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "Microvascular",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "Microvascular",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "Myofibroblasts",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.1",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "WNT2B..Fos.lo.1",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "Endothelial",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Endothelial",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "Endothelial",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..2",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..2",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..1",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..1",
+    "target": "WNT2B..Fos.lo.1",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..1",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..1",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "WNT5B..1",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Glia",
+    "target": "RSPO3.",
+    "value": 1
+  },
+  {
+    "source": "Glia",
+    "target": "Glia",
+    "value": 1
+  },
+  {
+    "source": "Glia",
+    "target": "WNT5B..1",
+    "value": 1
+  },
+  {
+    "source": "Glia",
+    "target": "WNT5B..2",
+    "value": 1
+  },
+  {
+    "source": "Microvascular",
+    "target": "Myofibroblasts",
+    "value": 1
+  },
+  {
+    "source": "Microvascular",
+    "target": "WNT2B..Fos.hi",
+    "value": 1
+  },
+  {
+    "source": "Glia",
+    "target": "Myofibroblasts",
+    "value": 1
+  }
+]
+}

@@ -1,0 +1,33 @@
+<head>
+    <style> body { margin: 0; } </style>
+  
+    <script src="//unpkg.com/3d-force-graph-vr"></script>
+    <!--<script src="../../dist/3d-force-graph-vr.js"></script>-->
+  
+    <script src="//unpkg.com/three-spritetext"></script>
+  </head>
+  
+  <body>
+    <div id="3d-graph"></div>
+  
+    <script>
+      const Graph = ForceGraphVR()
+        (document.getElementById('3d-graph'))
+          .jsonUrl('insulin.json')
+          .nodeAutoColorBy('group')
+          .nodeVal('group')
+          .linkDirectionalArrowLength(1)
+          .linkDirectionalArrowRelPos(1)
+          .linkCurvature('curvature')
+          .linkCurveRotation('rotation')
+          .linkDirectionalParticles(2)
+          .linkDirectionalParticleSpeed(d => d.value * 0.01)
+          .nodeThreeObject(node => {
+            const sprite = new SpriteText(node.id);
+            sprite.color = node.color;
+            sprite.textHeight = node.group;
+            return sprite;
+          });
+  
+    </script>
+  </body>

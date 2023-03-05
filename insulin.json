@@ -2,63 +2,63 @@
 [
   {
     "id": "GLUT1",
-    "group": 1
+    "group": 5
   },
   {
     "id": "AMPK",
-    "group": 1
+    "group": 5
   },
   {
     "id": "p70S6K",
-    "group": 1
+    "group": 5
   },
   {
     "id": "GLUCOSE",
-    "group": 1
+    "group": 5
   },
   {
     "id": "GLUT4",
-    "group": 1
+    "group": 5
   },
   {
     "id": "AS160",
-    "group": 1
+    "group": 5
   },
   {
     "id": "GS",
-    "group": 1
+    "group": 5
   },
   {
     "id": "MTOR",
-    "group": 1
+    "group": 5
   },
   {
     "id": "GSK-3",
-    "group": 1
+    "group": 5
   },
   {
     "id": "AKT",
-    "group": 1
+    "group": 15
   },
   {
     "id": "PDK1",
-    "group": 1
+    "group": 5
   },
   {
     "id": "PI3K",
-    "group": 1
+    "group": 5
   },
   {
     "id": "IRS-1",
-    "group": 1
+    "group": 5
   },
   {
     "id": "IR",
-    "group": 1
+    "group": 5
   },
   {
     "id": "Insulin",
-    "group": 1
+    "group": 5
   }
 ]
 ,"links":
