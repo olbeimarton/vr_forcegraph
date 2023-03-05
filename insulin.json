@@ -1,0 +1,147 @@
+{"nodes":
+[
+  {
+    "id": "GLUT1",
+    "group": 1
+  },
+  {
+    "id": "AMPK",
+    "group": 1
+  },
+  {
+    "id": "p70S6K",
+    "group": 1
+  },
+  {
+    "id": "GLUCOSE",
+    "group": 1
+  },
+  {
+    "id": "GLUT4",
+    "group": 1
+  },
+  {
+    "id": "AS160",
+    "group": 1
+  },
+  {
+    "id": "GS",
+    "group": 1
+  },
+  {
+    "id": "MTOR",
+    "group": 1
+  },
+  {
+    "id": "GSK-3",
+    "group": 1
+  },
+  {
+    "id": "AKT",
+    "group": 1
+  },
+  {
+    "id": "PDK1",
+    "group": 1
+  },
+  {
+    "id": "PI3K",
+    "group": 1
+  },
+  {
+    "id": "IRS-1",
+    "group": 1
+  },
+  {
+    "id": "IR",
+    "group": 1
+  },
+  {
+    "id": "Insulin",
+    "group": 1
+  }
+]
+,"links":
+[
+  {
+    "source": "GLUT1",
+    "target": "GLUCOSE",
+    "value": 1
+  },
+  {
+    "source": "AMPK",
+    "target": "GLUT1",
+    "value": 1
+  },
+  {
+    "source": "AMPK",
+    "target": "AKT",
+    "value": 1
+  },
+  {
+    "source": "p70S6K",
+    "target": "IRS-1",
+    "value": 1
+  },
+  {
+    "source": "GLUT4",
+    "target": "GLUCOSE",
+    "value": 1
+  },
+  {
+    "source": "AS160",
+    "target": "GLUT4",
+    "value": 1
+  },
+  {
+    "source": "MTOR",
+    "target": "p70S6K",
+    "value": 1
+  },
+  {
+    "source": "GSK-3",
+    "target": "GS",
+    "value": 1
+  },
+  {
+    "source": "AKT",
+    "target": "AS160",
+    "value": 1
+  },
+  {
+    "source": "AKT",
+    "target": "PDK1",
+    "value": 1
+  },
+  {
+    "source": "AKT",
+    "target": "MTOR",
+    "value": 1
+  },
+  {
+    "source": "AKT",
+    "target": "GSK-3",
+    "value": 1
+  },
+  {
+    "source": "PI3K",
+    "target": "PDK1",
+    "value": 1
+  },
+  {
+    "source": "IRS-1",
+    "target": "PI3K",
+    "value": 1
+  },
+  {
+    "source": "IR",
+    "target": "IRS-1",
+    "value": 1
+  },
+  {
+    "source": "Insulin",
+    "target": "IR",
+    "value": 1
+  }
+]
+}

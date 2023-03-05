@@ -1,0 +1,120 @@
+{"nodes":
+[
+    {
+    "id": "PI-3K",
+    "group": 5
+  },
+  {
+    "id": "KRAS",
+    "group": 15
+  },
+  {
+    "id": "RAF",
+    "group": 5
+  },
+  {
+    "id": "MEK",
+    "group": 5
+  },
+  {
+    "id": "ERK",
+    "group": 5
+  },
+  {
+    "id": "RSK2",
+    "group": 5
+  },
+  {
+    "id": "AP-1",
+    "group": 5
+  },
+  {
+    "id": "NFkB",
+    "group": 5
+  },
+  {
+    "id": "PTEN",
+    "group": 5
+  },
+  {
+    "id": "AKT",
+    "group": 5
+  },
+  {
+    "id": "BAD",
+    "group": 5
+  },
+  {
+    "id": "MDM2",
+    "group": 5
+  }
+]
+,"links":
+[
+  {
+    "source": "KRAS",
+    "target": "PI-3K",
+    "value": 1
+  },
+  {
+    "source": "PI-3K",
+    "target": "AKT",
+    "value": 1
+  },
+  {
+    "source": "PI-3K",
+    "target": "KRAS",
+    "value": 1
+  },
+  {
+    "source": "KRAS",
+    "target": "RAF",
+    "value": 1
+  },
+  {
+    "source": "KRAS",
+    "target": "MEK",
+    "value": 1
+  },
+  {
+    "source": "KRAS",
+    "target": "NFkB",
+    "value": 1
+  },
+  {
+    "source": "MEK",
+    "target": "ERK",
+    "value": 1
+  },
+  {
+    "source": "ERK",
+    "target": "RSK2",
+    "value": 1
+  },
+  {
+    "source": "ERK",
+    "target": "AP-1",
+    "value": 1
+  },
+  {
+    "source": "RSK2",
+    "target": "NFkB",
+    "value": 1
+  },
+  {
+    "source": "PTEN",
+    "target": "PI-3K",
+    "value": 1
+  },
+  {
+    "source": "AKT",
+    "target": "BAD",
+    "value": 1
+  },
+  {
+    "source": "AKT",
+    "target": "MDM2",
+    "value": 1
+  }
+]
+}
