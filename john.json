@@ -9,6 +9,10 @@
     "group": 1
   },
   {
+    "id": "Inflammatory fibroblasts A",
+    "group": 2
+  },
+  {
     "id": "Immature Goblet cells",
     "group": 1
   },
@@ -25,6 +29,10 @@
     "group": 1
   },
   {
+    "id": "Inflammatory fibroblasts B",
+    "group": 2
+  },
+  {
     "id": "Immature Enterocytes A",
     "group": 1
   },
@@ -33,12 +41,24 @@
     "group": 1
   },
   {
+    "id": "Inflammatory fibroblasts C",
+    "group": 2
+  },
+  {
     "id": "Glia cells",
     "group": 1
   },
   {
+    "id": "Glia cells",
+    "group": 2
+  },
+  {
     "id": "RSPO3 Fibroblasts",
     "group": 1
+  },
+  {
+    "id": "RSPO3 Fibroblasts",
+    "group": 2
   },
   {
     "id": "Enterocytes",
@@ -53,8 +73,16 @@
     "group": 1
   },
   {
+    "id": "Myofibroblasts",
+    "group": 2
+  },
+  {
     "id": "Endothelial cell",
     "group": 1
+  },
+  {
+    "id": "Endothelial cell",
+    "group": 2
   },
   {
     "id": "M cells",
@@ -65,12 +93,24 @@
     "group": 1
   },
   {
+    "id": "Microvascular cells",
+    "group": 2
+  },
+  {
     "id": "Inflammatory fibroblasts D",
     "group": 1
   },
   {
+    "id": "Inflammatory fibroblasts D",
+    "group": 2
+  },
+  {
     "id": "Post-capillary Venules",
     "group": 1
+  },
+  {
+    "id": "Post-capillary Venules",
+    "group": 2
   },
   {
     "id": "Endothelial cells",
