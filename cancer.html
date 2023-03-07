@@ -28,7 +28,12 @@
             sprite.color = node.color;
             sprite.textHeight = node.group;
             return sprite;
-          });
+          })
+          .onNodeDragEnd(node => {
+          node.fx = node.x;
+          node.fy = node.y;
+          node.fz = node.z;
+        });
   
     </script>
   </body>
